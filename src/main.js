@@ -22,7 +22,9 @@ import {
   CarouselItem,
   BackTop,
   Timeline,
-  TimelineItem
+  TimelineItem,
+  Anchor,
+  AnchorLink
 } from "view-design";
 
 Vue.component("Affix", Affix);
@@ -44,6 +46,8 @@ Vue.component("CarouselItem", CarouselItem);
 Vue.component("BackTop", BackTop);
 Vue.component("Timeline", Timeline);
 Vue.component("TimelineItem", TimelineItem);
+Vue.component("Anchor", Anchor);
+Vue.component("AnchorLink", AnchorLink);
 Vue.config.productionTip = false;
 
 new Vue({
