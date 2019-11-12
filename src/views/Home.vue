@@ -19,6 +19,7 @@
             </ul>
           </div>
           <div class="articles-item-rt">
+
             <img :src="item.cover" alt="" />
           </div>
         </li>
