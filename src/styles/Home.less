@@ -1,0 +1,104 @@
+.container-lf{
+  background: #eee;
+}
+.articles-items{
+  padding: 0 20px;
+  .articles-item{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    height: 170px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid #dcdee2;
+    transition: all .2s ease-in-out;
+    &:hover{
+      box-shadow: 0 1px 6px rgba(0,0,0,.2);
+      border-color: #eee;
+    }
+    .articles-item-lf{
+      flex: 1;
+      .articles-title{
+        color: #464c5b;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+      }
+      .articles-description{
+        color: #9ea7b4;
+        font-size: 12px;
+        line-height: 22px;
+        margin: 8px 0;
+      }
+      .articles-content{
+        color: #657180;
+        font-size: 14px;
+        line-height: 22px;
+      }
+      .articles-action{
+        margin-top: 16px;
+        margin-left: auto;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        padding: 0;
+        font-size: 0;
+        list-style: none;
+        li{
+          padding: 0 16px;
+          position: relative;
+          display: inline-block;
+          color: #9ea7b4;
+          font-size: 14px;
+          line-height: 22px;
+          text-align: center;
+          cursor: pointer;
+          i{
+            margin-right: 4px;
+          }
+          &:after{
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 0;
+            width: 1px;
+            height: 14px;
+            margin-top: -7px;
+            background-color: #e8eaec;
+          }
+        }
+      }
+    }
+    .articles-item-rt{
+      margin-left: 40px;
+      img{
+        width: 280px;
+      }
+    }
+  }
+}
+.top{
+  background: #fff;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #dcdee2;
+  transition: all 0.2s ease-in-out;
+  &:hover{
+    box-shadow: 0 1px 6px rgba(0,0,0,.2);
+    border-color: #eee;
+  }
+  i{
+    color: #464c5b;
+  }
+}
+.container-rt{
+  background: #fff;
+  padding-left: 20px;
+  .ivu-timeline-item{
+    padding: 12px 0;
+    height: 190px;
+  }
+}
