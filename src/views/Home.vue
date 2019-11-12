@@ -13,6 +13,7 @@
             <p class="articles-description">{{ item.description }}</p>
             <p class="articles-content">{{ item.content }}</p>
             <ul class="articles-action">
+
               <li><Icon type="ios-star-outline" />{{ item.star }}</li>
               <li><Icon type="ios-thumbs-up-outline" />{{ item.like }}</li>
               <li><Icon type="ios-text-outline" />{{ item.comment }}</li>
