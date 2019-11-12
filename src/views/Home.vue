@@ -1,6 +1,7 @@
 <template>
   <Layout class="container">
     <Affix :offset-top="80">
+
       <Sider class="container-lf" width="320">
         <Info />
       </Sider>
