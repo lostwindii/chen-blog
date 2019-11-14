@@ -3,9 +3,22 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
+const state = {
+  name:'张三'
+};
+
+const mutations = {
+  changeName(state){
+    state.name = '里斯'
+  },
+  changeNameWithParams(state,payload){
+    state.name = payload.name
+  }
+};
+
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
+  state,
+  mutations,
   actions: {},
   modules: {}
 });
