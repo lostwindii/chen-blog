@@ -245,6 +245,19 @@ export default {
       ]
     };
   },
+  mounted(){
+      this.onLoad();
+  },
+  methods: {
+      // 获取数据
+      onLoad() {
+          this.$api.getNews({}).then(response => {
+              console.log(response)
+          }).catch(error => {
+              console.log(error.response)
+          })
+      }
+  },
   components: {
     Info
   }

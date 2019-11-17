@@ -3,7 +3,9 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "view-design/dist/styles/iview.css";
+import api from './api/api'
 import {
+  Message,
   Affix,
   Layout,
   Header,
@@ -49,6 +51,8 @@ Vue.component("TimelineItem", TimelineItem);
 Vue.component("Anchor", Anchor);
 Vue.component("AnchorLink", AnchorLink);
 Vue.config.productionTip = false;
+Vue.prototype.$api = api;
+Vue.prototype.$Message = Message;
 
 new Vue({
   router,
