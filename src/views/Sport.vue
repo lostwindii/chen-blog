@@ -1,7 +1,7 @@
 <template>
   <div class="sport">
     <h1>sport</h1>
-    <div>hellow everyone</div>
+    <div>hello everyone</div>
   </div>
 </template>
 
